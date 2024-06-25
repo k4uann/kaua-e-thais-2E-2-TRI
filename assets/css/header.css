@@ -20,3 +20,13 @@ align-items: center;
     background-position: center;
     background-repeat: no-repeat;
 }
+.menu-lista{
+    display: none;
+}
+.menu-checkbox:checked ~ .menu-lista{
+    display: block;
+}
+.lista-iten{
+    padding: 1em;
+    background-color:white;
+}
