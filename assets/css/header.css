@@ -12,6 +12,10 @@ align-items: center;
     margin: 0px 20px;
     padding: 0.5em;
 }
+.lista-titulo{
+    background-color: var(--branco);
+    color: var(--laranja);
+}
 .menu-hamburguer{
     width: 24px;
     height: 24px;
@@ -24,6 +28,7 @@ align-items: center;
     display: none;
     position: absolute;
     width: 60vw;
+
 }
 .menu-checkbox:checked ~ .menu-lista{
     display: block;
