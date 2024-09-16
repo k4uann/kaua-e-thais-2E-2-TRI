@@ -36,7 +36,24 @@ align-items: center;
 .menu-checkbox:checked ~ .menu-lista{
     display: block;
 }
-.lista-iten{
+
+.lista-titulo{
+    background-color: var(--branco);
+    color: var(--laranja);
+}
+.lista-item{
     padding: 1em;
     background-color:white;
+    color: var(--laranja);
+
+}
+.banner-pesquisa{
+    border: 1px solid white;
+    background-color: transparent;
+    color: var(--branco);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+    background: url(../img/AluraBooks/Pesquisa.svg) no-repeat;
+    background-position: 1em;
 }
