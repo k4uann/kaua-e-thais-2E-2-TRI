@@ -74,21 +74,30 @@
                     <h3 class="descricao-titulo">talvez você se interesse por...</h3>
                     <h2 class="descricao-titulo-livro">angular 11 e Firebase</h2>
                     <p class="descricao-texto">construindo uma aplicação integrada com a plataforma do google</p>
-                    <img src="assets/img/AluraBooks/Angular.png" alt="">
                 </div>
-                <div class="card-botoes">
-                    <div class="botoes">
-                        <div class="botoes-item"><img src="assets/img/AluraBooks/Favoritos.svg" alt=""></div>
-                        <div class="botoes-item"><img src="assets/img/AluraBooks/Compras.svg" alt=""></div>
-                        <a href="#" class="botao-ancora">saiba mais</a>
-                    </div>
-                </div>
+                <img src="assets/img/AluraBooks/Angular.png" alt="">
             </div>
-
+            <div class="card-botoes">
+                <div class="botoes">
+                    <div class="botoes-item"><img src="assets/img/AluraBooks/Favoritos.svg" alt=""></div>
+                    <div class="botoes-item"><img src="assets/img/AluraBooks/Compras.svg" alt=""></div>
+                </div>
+                <a href="#" class="botao-ancora">saiba mais</a>
+            </div>
         </div>
-
-
-
+    </section>
+    <section class="topicos">
+        <h2 class="topicos-titulo">topicos visitados recentemente</h2>
+        <ul class="topico-lista">
+            <li class="topicos-item"><a href="#" class="topicos-link">Android</a></li>
+            <li class="topicos-item"><a href="#" class="topicos-link">Marketing Digital</a></li>
+            <li class="topicos-item"><a href="#" class="topicos-link">Agile</a></li>
+            <li class="topicos-item"><a href="#" class="topicos-link">StartTups</a></li>
+            <li class="topicos-item"><a href="#" class="topicos-link">HTML & CSS</a></li>
+            <li class="topicos-item"><a href="#" class="topicos-link">Python</a></li>
+            <li class="topicos-item"><a href="#" class="topicos-link">OO</a></li>
+            <li class="topicos-item"><a href="#" class="topicos-link">Java</a></li>
+        </ul>
     </section>
 
 
@@ -98,6 +107,10 @@
         const swiper = new Swiper('.swiper', {
             spaceBetween: 10,
             slidesPerView: 3,
+            pagination:{
+                el: 'swiper-pagination',
+                type: 'bullets'
+            }
         });
     </script>
 </body>
