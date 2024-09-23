@@ -64,21 +64,3 @@
     font-weight: 700;
     text-decoration: none;
 }
-.topicos{
-    background-color: var(--azul);
-    color: var(--branco);
-}
-.topicos-item{
-    padding: 2px;
-    background-color: var(--laranja);
-}
-a{
-    color: var(--branco);
-    text-decoration: none;
-}   
-a:visited{
-    color: var(--branco);
-}
-a:hover{
-    color: var(--branco);
-}
